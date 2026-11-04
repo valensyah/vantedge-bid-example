@@ -87,7 +87,7 @@ export function DocumentDetailDialog({
 
   return (
     <Dialog open={open} onOpenChange={onOpenChange}>
-      <DialogContent className="sm:max-w-xl p-0 overflow-hidden rounded-2xl border border-zinc-200 shadow-xl bg-white font-inter">
+      <DialogContent className="h-[90vh] sm:h-auto sm:max-w-xl p-0 overflow-hidden rounded-2xl border border-zinc-200 shadow-xl bg-white font-inter">
         <div className="p-6 pb-4 border-b border-zinc-100 bg-gradient-to-b from-zinc-50/80 to-white">
           <DialogHeader className="gap-2">
             <div className="flex items-center justify-between gap-3 flex-wrap">
